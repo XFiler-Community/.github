@@ -7,58 +7,51 @@
 <h1 align="center">X-Filer</h1>
 
 <p align="center">
-  <b>The Arc of file managers.</b><br/>
-  Spaces, split view, and cloud drives right next to your local disks.<br/>
-  One app for Windows and macOS.
+  <b>Every cloud and server in one file manager.</b><br/>
+  For Windows, macOS and Linux.
 </p>
 
 <p align="center">
-  <a href="https://x-filer.com/?utm_source=github&utm_medium=org_profile&utm_campaign=hero"><b>🌐 x-filer.com</b></a>
+  <a href="https://x-filer.com/download/?utm_source=github&utm_medium=org_profile&utm_campaign=hero"><b>Download</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/XFiler-Community/XFiler">💬 Feedback &amp; releases</a>
+  <a href="https://x-filer.com/?utm_source=github&utm_medium=org_profile&utm_campaign=hero">Website</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/XFiler-Community/XFiler">Releases &amp; feedback</a>
 </p>
 
 ---
 
-Explorer and Finder have barely changed in 20 years. **X-Filer** rethinks
-them the way Arc rethought the browser: a sidebar instead of toolbar clutter,
-separate contexts for work and life, and your clouds treated as real drives,
-with no sync folders and no browser tabs.
+X-Filer puts OneDrive, Dropbox, Yandex Disk, Google Drive, SFTP, FTP, WebDAV,
+S3-compatible storage and SMB next to your local folders, with no sync clients.
 
 | | |
 |---|---|
-| ☁️ **Cloud drives, natively** | Google Drive and Yandex Disk browsed like local folders. Connect one right from the sidebar. |
-| 🪐 **Spaces** | Work, personal, project: each Space has its own pinned folders, open tabs and accent color. |
-| ⊞ **Split view** | Two panes when you need them, one when you don't. "Open beside" from anywhere. |
-| 📌 **Pinned + Open** | Bookmarks that stay, and tabs that tidy themselves up after inactivity. |
-| ⌨️ **The basics, done right** | Search, quick preview on Space, ZIP, drag & drop and clipboard to and from Finder / Explorer, native shortcuts. |
-| 🪟🍎 **Truly cross-platform** | Windows 10/11 (x64, ARM64) and macOS 12+ (Apple Silicon, Intel). Same app, same muscle memory. |
-| ⚡ **No runtime to install** | AOT-compiled and self-contained: no .NET runtime needed. |
-| 🔓 **Local files free, forever** | Managing your own disks costs nothing. No ads. |
+| **All your storage in one sidebar** | Clouds, servers and network folders open like local folders. iCloud Drive on a Mac, WSL on Windows. |
+| **Copy between clouds** | Progress from the first second, retries and resume. Yandex Disk and Dropbox can fetch a file from another cloud themselves. |
+| **A workspace that fits the job** | Spaces, up to nine panes in any grid, pinned folders and tabs that tidy themselves up. |
+| **The file-manager basics** | Search by name and contents, quick preview, archives as folders, batch rename, undo, folder sizes and a size map. |
+| **Projects with an AI agent** | See what Claude Code changed since your last visit and put a file back, without git or an IDE. |
+| **Local files free forever** | No account and no ads for your own disks. |
 
-> **Status:** pre-1.0. There are no public builds yet; the first release is
-> on its way. Watch [XFiler-Community/XFiler](https://github.com/XFiler-Community/XFiler)
-> (Watch → Custom → Releases) or write to
-> [hello@x-filer.com](mailto:hello@x-filer.com) to hear when it ships.
+> **Status:** public beta. Get it on [x-filer.com](https://x-filer.com/download/?utm_source=github&utm_medium=org_profile&utm_campaign=status)
+> or from [Releases](https://github.com/XFiler-Community/XFiler/releases).
 
 ---
 
-### 📦 Repositories
+### Repositories
 
 | Repo | What it is |
 |---|---|
 | [**XFiler**](https://github.com/XFiler-Community/XFiler) | The app's public home: releases, bug reports, feature requests and announcements. |
-| **X-Filer.Desktop** *(private)* | The app source: .NET 10 + Avalonia UI 12 for Windows and macOS, plus experimental Android/iOS heads. |
-| [**FileVault**](https://github.com/XFiler-Community/FileVault) | A .NET library with one `IFileProvider` for local FS, FTP/FTPS, SFTP, Google Drive, Yandex Disk, GitHub repositories and WSL. MIT, [on NuGet](https://www.nuget.org/packages/FileVault.Core). |
-| [**FileOperations**](https://github.com/XFiler-Community/FileOperations) | Platform-native copy/move/delete/trash for Windows and macOS. MIT, on NuGet as `XFiler.FileOperations.*`. |
+| **X-Filer.Desktop** *(private)* | The app source: .NET 11 and Avalonia UI 12 for Windows, macOS and Linux, plus experimental Android and iOS heads. |
+| [**FileVault**](https://github.com/XFiler-Community/FileVault) | A .NET library with one `IFileProvider` for local files, FTP/FTPS, SFTP, WebDAV, S3-compatible storage, Google Drive, OneDrive, Dropbox, Yandex Disk, GitHub repositories and WSL. MIT, [on NuGet](https://www.nuget.org/packages/FileVault.Core). |
+| [**YandexDisk.Client**](https://github.com/XFiler-Community/YandexDisk.Client) | A .NET client for the Yandex Disk REST API, AOT- and trim-safe. MIT, [on NuGet](https://www.nuget.org/packages/XFiler.YandexDisk.Client). |
+| [**FileOperations**](https://github.com/XFiler-Community/FileOperations) | Platform-native copy, move, delete and trash for Windows and macOS. MIT, on NuGet as `XFiler.FileOperations.*`. |
 
-### 🤝 Get involved
+### Get involved
 
-X-Filer is pre-1.0 and moving fast, so this is a good time to shape it.
-
-- 💬 **Tell us what's missing**: open an [issue](https://github.com/XFiler-Community/XFiler/issues) or write to [hello@x-filer.com](mailto:hello@x-filer.com)
-- 🧩 **Building something with files in .NET?** Use [FileVault](https://github.com/XFiler-Community/FileVault); ⭐ stars, issues and PRs for new backends are welcome
-- 📣 **Tell a friend** who's tired of Explorer or Finder: [x-filer.com](https://x-filer.com/?utm_source=github&utm_medium=org_profile&utm_campaign=share)
+- **Tell us what's missing:** open an [issue](https://github.com/XFiler-Community/XFiler/issues) or write to [hello@x-filer.com](mailto:hello@x-filer.com).
+- **Building something with files in .NET?** Use [FileVault](https://github.com/XFiler-Community/FileVault). Issues and PRs for new backends are welcome.
 
 ---
 
@@ -67,15 +60,13 @@ X-Filer is pre-1.0 and moving fast, so this is a good time to shape it.
 
 <br/>
 
-**X-Filer** — проводник, в котором Яндекс Диск и Google Drive стали обычными
-дисками в сайдбаре: без sync-папок и без браузера. Плюс Spaces и split view
-в духе Arc. Работает на Windows и macOS, для локальных файлов бесплатно
-навсегда, без рекламы.
+**X-Filer** — файловый менеджер для Windows, macOS и Linux, в котором все облака и
+серверы собраны в одной боковой панели: Яндекс Диск, OneDrive, Dropbox, Google Диск,
+SFTP, FTP, WebDAV, S3 и SMB. Клиенты синхронизации не нужны. Локальные файлы
+бесплатны навсегда, без аккаунта и рекламы.
 
-Публичных сборок пока нет, первый релиз готовится. Чтобы узнать о нём первым —
-подпишитесь на релизы [XFiler-Community/XFiler](https://github.com/XFiler-Community/XFiler)
-или напишите на [hello@x-filer.com](mailto:hello@x-filer.com).
+Сейчас идёт публичная бета.
 
-**[Посмотреть → x-filer.com](https://x-filer.com/?utm_source=github&utm_medium=org_profile&utm_campaign=ru)**
+**[Скачать на x-filer.com](https://x-filer.com/ru/download/?utm_source=github&utm_medium=org_profile&utm_campaign=ru)**
 
 </details>
